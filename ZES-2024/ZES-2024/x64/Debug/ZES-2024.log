@@ -1,0 +1,382 @@
+﻿Сборка начата 28.12.2024 21:34:11.
+Уровень детализации журнала: Normal.     1>Проект "D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\ZES-2024.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\ZES-2024.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\ZES-2024.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt CodeGeneration.cpp Error.cpp ErrorTest.cpp ffst.cpp Greibach.cpp In.cpp IT.cpp LexicalAnalysis.cpp Log.cpp LT.cpp MFST.cpp Parm.cpp Polish.cpp SemanticAnalysis.cpp Split.cpp "ZES-2024.cpp"
+         CodeGeneration.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\CodeGeneration.cpp(228,15): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         Error.cpp
+         ErrorTest.cpp
+         ffst.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\ffst.cpp(97,17): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         Greibach.cpp
+         In.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+         IT.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+         LexicalAnalysis.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\LexicalAnalysis.cpp(193,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\LexicalAnalysis.cpp(350,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         Log.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+         LT.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+         MFST.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): message : см. предыдущее определение "MFST_TRACE7"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.cpp(253,66): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         Parm.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+         Polish.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+         SemanticAnalysis.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+         Split.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+         ZES-2024.cpp
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): message : см. предыдущее определение "MFST_TRACE_START"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): message : см. предыдущее определение "MFST_TRACE1"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): message : см. предыдущее определение "MFST_TRACE2"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): message : см. предыдущее определение "MFST_TRACE3"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): message : см. предыдущее определение "MFST_TRACE4"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): message : см. предыдущее определение "MFST_TRACE5"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): message : см. предыдущее определение "MFST_TRACE6"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+       D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): message : см. предыдущее определение "MFST_TRACE7"
+     1>D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\ZES-2024.cpp(23,2): warning C4102: Log: неиспользованная метка
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\x64\Debug\ZES-2024.exe" /INCREMENTAL /ILK:"x64\Debug\ZES-2024.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\x64\Debug\ZES-2024.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\x64\Debug\ZES-2024.lib" /MACHINE:X64 x64\Debug\CodeGeneration.obj
+         x64\Debug\Error.obj
+         x64\Debug\ErrorTest.obj
+         x64\Debug\ffst.obj
+         x64\Debug\Greibach.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         x64\Debug\LexicalAnalysis.obj
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\MFST.obj
+         x64\Debug\Parm.obj
+         x64\Debug\Polish.obj
+         x64\Debug\SemanticAnalysis.obj
+         x64\Debug\Split.obj
+         "x64\Debug\ZES-2024.obj"
+         ZES-2024.vcxproj -> D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\x64\Debug\ZES-2024.exe
+       TlogCleanup:
+         Следующие элементы будут удалены из tlogs, так как они были удалены из проекта или сборки: D:\лабораторные работы\ZES-2024\ZES-2024\ZES-2024\CodeGeneration.cpp.
+       FinalizeBuildStatus:
+         Файл "x64\Debug\ZES-2024.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\ZES-2024.tlog\ZES-2024.lastbuildstate".
+     1>Сборка проекта "D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\ZES-2024.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\ZES-2024.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\CodeGeneration.cpp(228,15): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\ffst.cpp(97,17): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\LexicalAnalysis.cpp(193,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\LexicalAnalysis.cpp(350,17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(15,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(21,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(27,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(33,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(35,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(36,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(37,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.h(40,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST.cpp(253,66): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(10,1): warning C4005: MFST_TRACE_START: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(16,1): warning C4005: MFST_TRACE1: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(22,1): warning C4005: MFST_TRACE2: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(28,1): warning C4005: MFST_TRACE3: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(30,1): warning C4005: MFST_TRACE4: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(31,1): warning C4005: MFST_TRACE5: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(32,1): warning C4005: MFST_TRACE6: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\MFST_trace.h(35,1): warning C4005: MFST_TRACE7: изменение макроопределения
+         D:\лабораторные\ZES-2023\ZES-2024\ZES-2024\ZES-2024\ZES-2024.cpp(23,2): warning C4102: Log: неиспользованная метка
+
+    Предупреждений: 110
+    Ошибок: 0
+
+Прошло времени 00:00:07.21

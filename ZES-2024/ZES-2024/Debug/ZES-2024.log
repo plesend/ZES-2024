@@ -1,0 +1,34 @@
+﻿Сборка начата 15.12.2024 19:51:49.
+Уровень детализации журнала: Normal.     1>Проект "D:\лабораторные работы\ZES-2024\ZES-2024\ZES-2024\ZES-2024.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\ZES-2024.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\лабораторные работы\ZES-2024\ZES-2024\Debug\ZES-2024.exe" /INCREMENTAL /ILK:"Debug\ZES-2024.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\лабораторные работы\ZES-2024\ZES-2024\Debug\ZES-2024.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\лабораторные работы\ZES-2024\ZES-2024\Debug\ZES-2024.lib" /MACHINE:X86 Debug\CodeGeneration.obj
+         Debug\Error.obj
+         Debug\ErrorTest.obj
+         Debug\ffst.obj
+         Debug\Greibach.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\LexicalAnalysis.obj
+         Debug\Log.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Parm.obj
+         Debug\Polish.obj
+         Debug\SemanticAnalysis.obj
+         Debug\Split.obj
+         "Debug\ZES-2024.obj"
+         ZES-2024.vcxproj -> D:\лабораторные работы\ZES-2024\ZES-2024\Debug\ZES-2024.exe
+       FinalizeBuildStatus:
+         Файл "Debug\ZES-2024.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\ZES-2024.tlog\ZES-2024.lastbuildstate".
+     1>Сборка проекта "D:\лабораторные работы\ZES-2024\ZES-2024\ZES-2024\ZES-2024.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.11

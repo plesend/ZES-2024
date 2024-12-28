@@ -1,0 +1,200 @@
+
+------------ПРОТОКОЛ------------
+ ----15.12.24 20:54:14----
+ 
+ ---- Параметры ---- 
+
+-in: D:\лабораторные работы\ZES-2024\ZES-2024\ZES-2024\ZES.txt
+-out: D:\лабораторные работы\ZES-2024\ZES-2024\ZES-2024\ZES.txt.out
+-log: D:\лабораторные работы\ZES-2024\ZES-2024\ZES-2024\ZES.txt.log
+
+---- Исходные данные ----
+int fn Func(int p, int c)|
+[|
+var int x;|
+var int prev=p;|
+var int cur=c;|
+var int temp;|
+until(x=3;) |
+[|
+temp=cur;|
+cur=temp+prev;|
+prev=temp;|
+x=x+1;|
+];|
+return cur;|
+];|
+|
+main|
+[|
+var int rez;|
+var int other;|
+var int oct=Ox11; |
+var string m='cool and unique string'; |
+var string n; |
+var string q;|
+var string e;|
+var string s;|
+var int w=34;|
+var int r=43; |
+var int resr;|
+var int resw;|
+|
+write 'right shift then left result';|
+|
+resw=w}3;|
+resr=r{3;|
+write resw;|
+write resr; |
+|
+write 'string concatenation by func';|
+m=' create';|
+n=' repository ';|
+q=joinst(m,n);|
+write q;|
+|
+write 'func with cycle result';|
+rez=Func(1,1);|
+write rez;|
+|
+write 'string concatenation by operation plus';|
+n=' some ';|
+m=' string ';|
+|
+q=m+n;|
+write q;|
+|
+write 'standart lib string copy';|
+s=copystr(e,m);|
+write s; |
+|
+write 'operation with oct ';|
+other=oct+rez;|
+write other;|
+|
+write 'operation with bin ';|
+var int bin;|
+bin=Bx11;|
+|
+other=bin+rez;|
+write other;|
+|
+return 0;|
+];
+
+Всего символов: 984
+
+Всего строк: 72
+
+Таблица лексем:
+
+1  tfi(ti,ti)[
+2  vti;
+3  vti=i;
+4  vti=i;
+5  vti;
+6  u(i=l;
+7  )[
+8  i=i;
+9  i=ioi;
+10  i=i;
+11  i=iol;
+12  ];
+13  ri;
+14  ];
+15  m[
+16  vti;
+17  vti;
+18  vti=l;
+19  vti=l;
+20  vti;
+21  vti;
+22  vti;
+23  vti;
+24  vti=l;
+25  vti=l;
+26  vti;
+27  vti;
+28  wl;
+29  i=iol;
+30  i=iol;
+31  wi;
+32  wi;
+33  wl;
+34  i=l;
+35  i=l;
+36  i=i(i,i);
+37  wi;
+38  wl;
+39  i=i(l,l);
+40  wi;
+41  wl;
+42  i=l;
+43  i=l;
+44  i=ioi;
+45  wi;
+46  wl;
+47  i=i(i,i);
+48  wi;
+49  wl;
+50  i=ioi;
+51  wi;
+52  wl;
+53  vti;
+54  i=l;
+55  i=ioi;
+56  wi;
+57  rl;
+58  ];
+59  
+Таблица идентификаторов:
+
+№    | Идентификатор | Тип данных | Тип идентификатора | Индекс в ТЛ |  Значение   
+
+0000    Func         integer   функция        3                 -       
+0001    Funcp        integer   параметр       6                 -       
+0002    Funcc        integer   параметр       9                 -       
+0003    Funcx        integer   переменная     14         0                 
+0004    Funcprev     integer   переменная     18         0                 
+0005    Funccur      integer   переменная     24         0                 
+0006    Functemp     integer   переменная     30         0                 
+0007    L1           integer   литерал        36         3                 
+0008    OP1          -         оператор       46         +                 
+0009    L2           integer   литерал        56         1                 
+0010    mainrez      integer   переменная     69         0                 
+0011    mainother    integer   переменная     73         0                 
+0012    mainoct      integer   переменная     77         0                 
+0013    L3           integer   литерал        79         9                 
+0014    mainm        string    переменная     83         [0] "" 
+0015    L4           string    литерал        85         [22] "cool and unique string" 
+0016    mainn        string    переменная     89         [0] "" 
+0017    mainq        string    переменная     93         [0] "" 
+0018    maine        string    переменная     97         [0] "" 
+0019    mains        string    переменная     101        [0] "" 
+0020    mainw        integer   переменная     105        0                 
+0021    L5           integer   литерал        107        34                
+0022    mainr        integer   переменная     111        0                 
+0023    L6           integer   литерал        113        43                
+0024    mainresr     integer   переменная     117        0                 
+0025    mainresw     integer   переменная     121        0                 
+0026    L7           string    литерал        124        [28] "right shift then left result" 
+0027    OP3          -         оператор       128        }                 
+0028    OP4          -         оператор       133        {                 
+0029    L10          string    литерал        143        [28] "string concatenation by func" 
+0030    L11          string    литерал        147        [7] " create" 
+0031    L12          string    литерал        151        [12] " repository " 
+0032    joinst       string    функция        155               -       
+0033    L13          string    литерал        166        [22] "func with cycle result" 
+0034    L16          string    литерал        181        [38] "string concatenation by operation plus" 
+0035    L17          string    литерал        185        [6] " some " 
+0036    L18          string    литерал        189        [8] " string " 
+0037    L19          string    литерал        200        [24] "standart lib string copy" 
+0038    copystr      string    функция        204               -       
+0039    L20          string    литерал        215        [19] "operation with oct " 
+0040    L21          string    литерал        226        [19] "operation with bin " 
+0041    mainbin      integer   переменная     230        0                 
+0042    L23          integer   литерал        245        0                 
+
+Количество идентификаторов:
+ 43
+Шаг :Правило             Входная лента                 Стек                

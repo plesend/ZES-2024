@@ -1,0 +1,72 @@
+int fn Func(int p, int c)
+[
+var int x;
+var int prev=p;
+var int cur=c;
+var int temp;
+until(x=3;) 
+[
+temp=cur;
+cur=temp+prev;
+prev=temp;
+x=x+1;
+];
+return cur;
+];
+
+main
+[
+var int rez;
+var int other;
+var int oct = Ox11; 
+var string m='cool and unique string'; 
+var string n; 
+var string q;
+var string e;
+var string s;
+var int w = 34;
+var int r = 43; 
+var int resr;
+var int resw;
+
+write 'right then left shift result';
+
+resw = w } 3;
+resr = r { 3;
+write resw;
+write resr; 
+
+write 'string concatenation by func';
+m=' create';
+n=' repository ';
+q=joinst(m,n);
+write q;
+
+write 'func with cycle result';
+rez=Func(1,1);
+write rez;
+
+write 'string concatenation by operation plus';
+n=' some ';
+m=' string ';
+
+q=m+n;
+write q;
+
+write 'standart lib string copy';
+s=copystr(e,m);
+write s; 
+
+write 'operation with oct ';
+other=oct+rez;
+write other;
+
+write 'operation with bin ';
+var int bin;
+bin = Bx11;
+
+other=bin+rez;
+write other;
+
+return 0;
+];
